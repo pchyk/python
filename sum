@@ -1,0 +1,6 @@
+#숫자가 들어있는 리스트, 튜플 등의 모든 요소를 더하여 하나의 값(숫자형)으로 만듦, 숫자형 아닐 시 TypeError
+sum(iterble, start = 0)
+
+num = [1,2,3]
+result = sum(num)
+print(result) #6
