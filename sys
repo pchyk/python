@@ -1,0 +1,11 @@
+#많은 양의 input() 다루기
+#줄바꿈 문자 /n을 포함하고 있다
+
+import sys
+input = sys.stdin.readline
+
+text = input().strip() 
+print(f"입력된 텍스트: '{text}'")  #'Hello'
+
+text = input() 
+print(f"입력된 텍스트: '{text}'")  #'Hello\n'
