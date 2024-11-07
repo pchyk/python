@@ -1,0 +1,21 @@
+'''import sys
+input = sys.stdin.readline
+
+while True:
+    try:
+        a,b = map(int,input().split())
+        print(a+b)
+    except:
+        break'''
+
+import sys
+
+# sys.stdin을 통해 EOF 방식으로 입력 받기
+for line in sys.stdin:
+    a, b = map(int, line.split())  # 각 줄을 공백 기준으로 나누어 두 정수로 변환
+    if a == 0 and b == 0:  # 종료 조건 (0 0이 입력되면 종료)
+        break
+    print(a + b)
+
+#EOF (End of File) 방식은 입력의 끝을 알리는 특별한 신호로, 프로그램에서 더 이상 읽을 입력이 없을 때 발생합니다. 주로 여러 줄의 입력을 처리할 때 사용되며, 입력이 끝나는 시점을 알려주는 중요한 개념입니다.
+#while 사용시 runtime error
