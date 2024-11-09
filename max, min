@@ -1,0 +1,13 @@
+#리스트, 튜플
+max_value = max(numbers)
+#문자열 바로 대입
+max_value = max(3, 5, 2, 8, 1)
+#딕셔너리
+max_score = max(scores.values())
+#매트릭스
+matrix = [
+    [3, 5, 2],
+    [8, 1, 7],
+    [4, 6, 9]
+]
+max_value = max(map(max, matrix))
