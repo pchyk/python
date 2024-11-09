@@ -1,0 +1,7 @@
+#데이터를 byte로 한 번에 입력받음
+
+from sys import stdin
+_, *a = map(int, stdin.buffer.read().split())
+print(min(a), max(a))
+
+입력값들을 sys.stdin과 read를 통해 더 빠르게 연산
