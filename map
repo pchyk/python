@@ -18,3 +18,5 @@ else :
     print('==')
 #map은 지연 평가(lazy evaluation), if문으로 들어가서야 map에 값이 할당됨
 #map의 값을 보기 위해서는 for문 등이나 list로 변경해야 함
+
+# int('530')은 530이지만 map(int,'530')은 5 3 0 세 숫자로 나옴
