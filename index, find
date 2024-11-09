@@ -1,6 +1,6 @@
 a = string.find(substring)
 a = string.index(substing)
-
+find 는 text에서만 사용 가능
 
 find()와 index()의 주요 차이점
 
