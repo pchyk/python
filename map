@@ -8,3 +8,13 @@ print(list(y))  #[2, 4, 6]
 ->for문 등으로 반복문에서 사용은 가능
 ->map 객체에 여러 번 접근하려 한다면 list등으로 변환
 #map 객체는 인덱스를 사용하여 요소에 접근할 수 없음
+
+A,B = map(int,input().split())
+if A > B :
+    print('>')
+elif A < B :
+    print('<')
+else :
+    print('==')
+#map은 지연 평가(lazy evaluation), if문으로 들어가서야 map에 값이 할당됨
+#map의 값을 보기 위해서는 for문 등이나 list로 변경해야 함
