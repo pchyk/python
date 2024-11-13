@@ -1,5 +1,6 @@
 #특정 함수를 시퀸스의 모든 요소에 적용하여 새로운 시퀸스를 반환
-
+#s = list(map(int,input().split()))
+#s = [int(x) for x in input().split()]   이거랑 똑같음
 x = [1, 2, 3]
 y = map(double,x)
 print(list(y))  #[2, 4, 6]
