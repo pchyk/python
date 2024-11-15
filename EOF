@@ -19,3 +19,8 @@ for line in sys.stdin:
 
 #EOF (End of File) 방식은 입력의 끝을 알리는 특별한 신호로, 프로그램에서 더 이상 읽을 입력이 없을 때 발생합니다. 주로 여러 줄의 입력을 처리할 때 사용되며, 입력이 끝나는 시점을 알려주는 중요한 개념입니다.
 #while 사용시 runtime error
+
+#그냥 이렇게 하자
+import sys
+s = sys.stdin.read().strip()
+print(s.count(' ') if s else 0)
